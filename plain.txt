@@ -1,0 +1,63 @@
+The 7-1 pattern rule
+7 different folder for a partial sass file and one
+main sass file to import all other files into
+a compiled css stylesheet
+
+THE 7 FOLDERS
+.base/
+.components/
+.layout/
+.pages/
+.theme/
+.abstracts/
+.vendors/
+
+
+SASS
+Sass is a css pre processor
+Main features of sass
+Varirables: for resuable values such as colors, font sizes, spacing, etc.
+Nesting: to nest selectors inside one another, allowing us to write less code.
+Operators: for mathematical operations right in css code.
+Partials and Imports: to write css in different files and importing them all in one single file.
+Mixins: to write resuable pieces of CSS code.
+Functions: si,iliar to mixins, with the difference that they produce a value that can be used.
+Extends: to make different selectors inherit declerations that are common to all of them.
+Control directives: for writing complex code using conditionals and loops (not covered in this course)
+
+SASS syntax
+We have one that uses curly braces, scss and the one that doesn't that's sass.
+
+
+Brief command line
+cd filename/foldername to navigate into a folder or file
+dir to view the directory of a file, i.e folders and files contained in a folder
+cd .. to go back to the folder directory
+mkdir foldername to make a folder
+touch filename to make a file you can specify multiple filename, i.e create multiple files on a go
+touch filename1 filename2 filename3
+
+Copying files with cl
+cp filename
+
+To go back a folder one level above use cd..
+
+To move a file to another directory
+mv filename ..
+
+To delete a file : del filename
+
+Installing sass with npm
+First create a package.json file by typing npm init
+Now to finally install our sass compilier
+npm i node-sass --save-dev
+
+Getting started with sass, add "compile:sass":"node-sass sass/main.scss css/style.css"
+to the script in your package.json file
+Then to begin compilation, on your terminal type npm run compile:sass
+To prevent you from always running the command on the terminal, add a watch flag:
+"compile:sass":"node-sass sass/main.scss css/style.css -w", you must also run the commad atleast once
+
+Installing live server through the command line globally, use:
+npm i live-server -g
+

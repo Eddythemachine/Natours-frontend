@@ -1,0 +1,8 @@
+Basic responsive design principles
+1.Fluid grids and layouts - To allow content to easily adapt to the current 
+viewport width used to browse the website. Uses % rather than px for all
+layout related lengths.
+2.Flexible/responsive images - Images behave differently than text content
+and so we need to ensure that they also adapt nicely to the current viewport.
+3.Media queries - To change styles on a certain viewport widths(breakpoint),
+allowing us to create diferent versions of our website for different widths.
