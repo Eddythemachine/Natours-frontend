@@ -18,7 +18,7 @@
 
   &:hover {
     box-shadow: 0 1.5rem 4rem rgba($black-black, 0.2);
-    transform: translateY(-1rem) scale(1.005);
+    transform: translateY(-1rem);
   }
 
   &__icon {
@@ -42,7 +42,7 @@
 
 .features {
   padding: 20rem 0;
-  height: 150vh;
+  // height: 150vh;
   background: linear-gradient(
       to right bottom,
       rgba($color-primary, 0.8),
@@ -50,15 +50,20 @@
     ),
     url("../img/nat-4.jpg") center center/cover;
   background-position: top;
-  clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%);
+  // clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%);
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: skewY(-7deg);
 
   .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+
+  & > * {
+    transform: skewY(7deg) !important;
   }
 }
