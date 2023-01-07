@@ -1,0 +1,30 @@
+.feature-box {
+  background: rgba($color-white, 0.4);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 0.3rem;
+  box-shadow: 0 1.5rem 4rem rgba($black-black, 0.15);
+  width: 30rem;
+  color: rgb(0, 0, 0);
+  font-family: "Comfortaa", cursive;
+
+  // &__icon {
+  // }
+
+  // &__text {
+  // }
+}
+
+.features {
+  padding: 20rem 0;
+  height: 96vh;
+  background: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("../img/nat-4.jpg") center center/cover;
+  background-position: top;
+  clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%);
+}

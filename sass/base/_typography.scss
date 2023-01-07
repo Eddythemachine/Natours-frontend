@@ -16,6 +16,7 @@
     animation: normal moveinleft 1s;
     transition: linear 1s;
     text-shadow: 0.5rem 0.5 0rem var(--light-green);
+    font-family: "Monoton", cursive;
   }
 
   &--main:hover {
@@ -24,7 +25,7 @@
 
   &--sub {
     display: block;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 1.74rem;
     animation: normal moveinright 1s;
@@ -42,6 +43,8 @@
       text-transform: uppercase;
       text-decoration: none;
       padding: 1.5rem 4rem;
+      font-weight: 900;
+      color: black;
     }
   }
 }
@@ -50,10 +53,13 @@
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: black;
 }
 
 .paragraph {
   font-size: 1.6rem;
+  color: black;
+  font-weight: 900;
 
   &:not(:last-child) {
     margin-bottom: 3rem;
