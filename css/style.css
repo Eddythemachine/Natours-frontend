@@ -236,12 +236,9 @@ body {
     .composition__photo:hover {
       transform: scale(1.1);
       z-index: 1;
-      padding: 0.5rem;
-      border: solid rgba(85, 197, 122, 0.6) 0.1rem;
       box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4); }
   .composition:hover .composition__photo:not(:hover) {
-    width: 48%;
-    display: none; }
+    width: 48%; }
 
 .colss {
   width: 100%; }
