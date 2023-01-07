@@ -4,13 +4,37 @@
   padding: 2.5rem;
   text-align: center;
   border-radius: 0.3rem;
-  box-shadow: 0 1.5rem 4rem rgba($black-black, 0.15);
-  width: 30rem;
+  width: 24rem;
+  cursor: pointer;
   color: rgb(0, 0, 0);
   font-family: "Comfortaa", cursive;
+  transition: 0.5s linear;
+  margin-bottom: 5rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-  // &__icon {
-  // }
+  &:hover {
+    box-shadow: 0 1.5rem 4rem rgba($black-black, 0.2);
+    transform: translateY(-1rem) scale(1.005);
+  }
+
+  &__icon {
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.8),
+      rgba($color-primary-dark, 0.8)
+    );
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   // &__text {
   // }
@@ -18,7 +42,7 @@
 
 .features {
   padding: 20rem 0;
-  height: 96vh;
+  height: 150vh;
   background: linear-gradient(
       to right bottom,
       rgba($color-primary, 0.8),
@@ -27,4 +51,14 @@
     url("../img/nat-4.jpg") center center/cover;
   background-position: top;
   clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
