@@ -372,6 +372,35 @@ h6 {
         color: #000; }
         .card__details ul li:not(:last-child) {
           border-bottom: solid 0.1rem #eee; }
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .card__price-box {
+    text-align: center;
+    margin-bottom: 8rem;
+    color: white; }
+  .card__price-only {
+    font-size: 1.5rem;
+    text-transform: uppercase; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100; }
+  .card a {
+    background: white;
+    text-decoration: none;
+    color: black;
+    padding: 1.5rem 2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    width: 70%;
+    margin: auto;
+    position: relative; }
 
 .header {
   height: 96vh;
