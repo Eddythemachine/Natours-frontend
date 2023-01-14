@@ -3,7 +3,7 @@
   -moz-perspective: 1500rem;
   position: relative;
   &__side {
-    height: 50rem;
+    height: 51rem;
     width: 30rem;
     cursor: pointer;
     color: white;
@@ -77,6 +77,27 @@
         rgba($color-secondary-light, 0.85),
         rgba($color-secondary-dark, 0.85)
       );
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+    }
+  }
+
+  &__details {
+    padding: 3rem;
+    ul {
+      list-style-type: none;
+      margin: 0 auto;
+      width: 80%;
+      li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+        color: $black-black;
+
+        &:not(:last-child) {
+          border-bottom: solid 0.1rem $color-grey-light-2;
+        }
+      }
     }
   }
 }

@@ -313,7 +313,7 @@ h6 {
   -moz-perspective: 1500rem;
   position: relative; }
   .card__side {
-    height: 50rem;
+    height: 51rem;
     width: 30rem;
     cursor: pointer;
     color: white;
@@ -356,7 +356,22 @@ h6 {
     padding: 1rem 1.5rem;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone; }
+  .card__details {
+    padding: 3rem; }
+    .card__details ul {
+      list-style-type: none;
+      margin: 0 auto;
+      width: 80%; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+        color: #000; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: solid 0.1rem #eee; }
 
 .header {
   height: 96vh;
