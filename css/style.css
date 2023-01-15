@@ -314,7 +314,7 @@ h6 {
   position: relative; }
   .card__side {
     height: 51rem;
-    width: 30rem;
+    width: 32rem;
     cursor: pointer;
     color: white;
     font-size: 2rem;
@@ -342,6 +342,18 @@ h6 {
     height: 23rem;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+  .card__picture--2 {
+    background: linear-gradient(to right bottom, #28b485, #7ed56f), url("../img/nat-6.jpg") center center/cover;
+    background-blend-mode: screen;
+    height: 23rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+  .card__picture--3 {
+    background: linear-gradient(to right bottom, #5643fa, #2998ff), url("../img/nat-7.jpg") center center/cover;
+    background-blend-mode: screen;
+    height: 23rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
   .card__heading {
     font-size: 2.8rem;
     text-transform: uppercase;
@@ -354,9 +366,18 @@ h6 {
     width: 75%; }
   .card__heading-span {
     padding: 1rem 1.5rem;
-    box-decoration-break: clone; }
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone; }
     .card__heading-span--1 {
       background: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone; }
+    .card__heading-span--2 {
+      background: linear-gradient(to right bottom, rgba(40, 180, 133, 0.85), rgba(126, 213, 111, 0.85));
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone; }
+    .card__heading-span--3 {
+      background: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
       box-decoration-break: clone;
       -webkit-box-decoration-break: clone; }
   .card__details {
@@ -402,6 +423,13 @@ h6 {
     margin: auto;
     position: relative; }
 
+.card-features-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 5rem; }
+
 .header {
   height: 96vh;
   background: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg") center center/cover;
@@ -425,10 +453,16 @@ h6 {
   display: flex; }
 
 .justify-content-center {
-  justify-content: center; }
+  justify-content: center !important; }
+
+.justify-content-evenly {
+  justify-content: space-evenly !important; }
+
+.margin-auto {
+  margin: auto; }
 
 .flex-wrap {
-  flex-wrap: wrap; }
+  flex-wrap: wrap !important; }
 
 .flex-wrap-nowrap {
   flex-wrap: nowrap; }

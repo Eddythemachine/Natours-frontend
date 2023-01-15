@@ -3,11 +3,19 @@
 }
 
 .justify-content-center {
-  justify-content: center;
+  justify-content: center !important;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly !important;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .flex-wrap {
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
 }
 
 .flex-wrap-nowrap {
