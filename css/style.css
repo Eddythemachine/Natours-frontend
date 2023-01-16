@@ -144,6 +144,9 @@ h6 {
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
 
+.color-black {
+  color: #000 !important; }
+
 .section-about {
   background: #f7f7f7f7;
   padding-top: 40rem;
@@ -167,7 +170,7 @@ h6 {
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .section-tours {
-  padding: 25rem 0 50rem 0; }
+  padding: 5rem 0 5rem 0; }
 
 .btn--white {
   background: white;
@@ -426,9 +429,10 @@ h6 {
 .card-features-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 5rem; }
+  margin-left: 10rem;
+  width: 90%;
+  height: 0vh;
+  margin-bottom: 60rem; }
 
 .header {
   height: 96vh;

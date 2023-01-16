@@ -188,8 +188,9 @@
 .card-features-container {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
- margin-left: auto;
- margin-right: auto;
- gap: 5rem;
- //  margin-left: 10rem;
+ margin-left: 10rem;
+ width: 90%;
+ height: 0vh;
+ margin-bottom: 60rem;
+ //  overflow-x: hidden;
 }

@@ -1,33 +1,33 @@
 .section-about {
-  background: $color-grey-light-1;
-  padding-top: 40rem;
-  margin-top: -25vh;
-  margin-bottom: -10rem;
+ background: $color-grey-light-1;
+ padding-top: 40rem;
+ margin-top: -25vh;
+ margin-bottom: -10rem;
 }
 
 .secondary-heading {
-  display: block;
-  font-size: 3rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background: linear-gradient(
-    to right,
-    $color-primary-light,
-    $color-primary-dark
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  transition: all 0.2s;
-  letter-spacing: 0.2rem;
-  text-align: center;
+ display: block;
+ font-size: 3rem;
+ text-transform: uppercase;
+ font-weight: 700;
+ background: linear-gradient(
+  to right,
+  $color-primary-light,
+  $color-primary-dark
+ );
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+ transition: all 0.2s;
+ letter-spacing: 0.2rem;
+ text-align: center;
 
-  &:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
-    text-shadow: 0.5rem 1rem 2rem rgba($black-black, 0.2);
-  }
+ &:hover {
+  transform: skewY(2deg) skewX(15deg) scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba($black-black, 0.2);
+ }
 }
 
 .section-tours {
-  padding: 25rem 0 50rem 0;
+ padding: 5rem 0 5rem 0;
 }
